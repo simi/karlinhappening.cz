@@ -44,7 +44,7 @@ end
 configure :build do
   activate :relative_assets
   activate :directory_indexes
-  activate :asset_hash
+  # activate :asset_hash
 
   # Ensmallen assets
   activate :minify_html, remove_input_attributes: false
