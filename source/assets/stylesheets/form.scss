@@ -1,0 +1,21 @@
+form#reg {
+  z-index: 150;
+
+  label {
+    display: block;
+    float: left;
+  }
+  input {
+    display: block;
+    float: right;
+  }
+
+  input[type="submit"] {
+    background-image: image-url("/assets/images/send.png");
+    border: 0;
+    display: block;
+    height: 38px;
+    width: 106px;
+  }
+
+}

@@ -3,5 +3,21 @@ title: 'Registrace'
 css: 'registration'
 ---
 
-h1 = current_page.data.title
+h2 = "Formulář pro registraci účastníků"
+
+form#reg
+  label for="name" Jméno
+  input#name type="text"
+  div.clear
+  label Příjmení
+  input#lastname type="text"
+  div.clear
+  label Věk
+  input#age type="text"
+  div.clear
+  label Email
+  input#email type="text"
+  div.clear
+  input type="image" src="/assets/images/send.png"
+
 
