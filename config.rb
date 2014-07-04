@@ -19,6 +19,7 @@ set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
 set :partials_dir, 'partials'
+set :relative_links, true
 
 after_configuration do
   # Add bower's directory to sprockets asset path.
@@ -50,4 +51,5 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :gzip, exts: %w(.js .css .html .htm .svg .ttf .otf .woff .eot)
+  activate :relative_assets
 end
