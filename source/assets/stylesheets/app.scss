@@ -1,0 +1,184 @@
+//= require normalize-css/normalize
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(/assets/images/background.jpg);
+}
+
+.image {
+  display: block;
+  width: 212px;
+  height: 209px;
+  background-image: url(/assets/images/border.png);
+  padding-left: 12px;
+  padding-top: 13px;
+}
+
+#main {
+  top: 0;
+  width: 1024px;
+  min-height: calc(100% - 93px);
+  position: relative;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+#content {
+  margin-left: 325px;
+  padding-top: 195px;
+  clear: both;
+
+  #text {
+    width: 420px;
+    float: left;
+  }
+
+  #images {
+    width: 275px;
+    float: right;
+    margin-top: 25px;
+  }
+}
+
+#footer {
+  width: 1024px;
+  height: 73px;
+  background-image: url(/assets/images/footer.png);
+  z-index: 100;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+}
+
+
+.layer {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+
+  &#line {
+    width: 665px;
+    height: 9px;
+    background-image: url(/assets/images/line.png);
+    left: 321px;
+    top: 176px;
+  }
+
+  &#plectrum {
+    width: 169px;
+    height: 150px;
+    left: 27px;
+    top: 79px;
+    background-image: url(/assets/images/plectrum.png);
+    z-index: 100;
+  }
+
+  &#guitar {
+    left: 43px;
+    width: 327px;
+    height: 322px;
+    background-image: url(/assets/images/guitar.png);
+    z-index: 90;
+  }
+
+  &#logo {
+    height: 418px;
+    width: 293px;
+    background-image: url(/assets/images/logos.png);
+    top: 262px;
+    left: 18px;
+  }
+
+  &#pencil {
+    height: 179px;
+    width: 738px;
+    background-image: url(/assets/images/pencil.png);
+    left: 286px;
+  }
+
+  &#glitch {
+    height: 275px;
+    width: 305px;
+    background-image: url(/assets/images/glitch.png);
+    top: initial;
+    left: initial;
+    right: 2px;
+    bottom: -93px;
+    z-index: 90;
+  }
+
+  &#menu {
+    width: 665px;
+    height: 40px;
+    z-index: 150;
+    top: 124px;
+    left: 331px;
+
+    #news {
+      display: inline-block;
+      width: 121px;
+      height: 33px;
+      background-image: url(/assets/images/menu/news.png);
+      &.active, &:hover {
+        background-image: url(/assets/images/menu/news_active.png);
+      }
+    }
+
+    #about_us {
+      display: inline-block;
+      width: 72px;
+      height: 26px;
+      background-image: url(/assets/images/menu/about_us.png);
+      margin-left: 28px;
+      margin-bottom: 7px;
+      &.active, &:hover {
+        background-image: url(/assets/images/menu/about_us_active.png);
+      }
+    }
+
+    #rekord {
+      display: inline-block;
+      width: 83px;
+      height: 25px;
+      background-image: url(/assets/images/menu/rekord.png);
+      margin-left: 30px;
+      margin-bottom: 8px;
+      &.active, &:hover {
+        background-image: url(/assets/images/menu/rekord_active.png);
+      }
+    }
+
+    #program {
+      width: 104px;
+      height: 26px;
+      display: inline-block;
+      background-image: url(/assets/images/menu/program.png);
+      margin-left: 33px;
+      margin-bottom: 2px;
+      &.active, &:hover {
+        background-image: url(/assets/images/menu/program_active.png);
+      }
+    }
+
+    #registration {
+      width: 135px;
+      height: 33px;
+      display: inline-block;
+      background-image: url(/assets/images/menu/registration.png);
+      margin-left: 27px;
+      &.active, &:hover {
+        background-image: url(/assets/images/menu/registration_active.png);
+      }
+    }
+  }
+}
+
