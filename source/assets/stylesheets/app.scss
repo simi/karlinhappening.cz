@@ -5,14 +5,14 @@ html, body {
 }
 
 body {
-  background-image: url(/assets/images/background.jpg);
+  background-image: image-url("/assets/images/background.jpg");
 }
 
 .image {
   display: block;
   width: 212px;
   height: 209px;
-  background-image: url(/assets/images/border.png);
+  background-image: image-url("/assets/images/border.png");
   padding-left: 12px;
   padding-top: 13px;
 }
@@ -49,7 +49,7 @@ body {
 #footer {
   width: 1024px;
   height: 73px;
-  background-image: url(/assets/images/footer.png);
+  background-image: image-url("/assets/images/footer.png");
   z-index: 100;
   position: relative;
   margin: 0 auto;
@@ -68,7 +68,7 @@ body {
   &#line {
     width: 665px;
     height: 9px;
-    background-image: url(/assets/images/line.png);
+    background-image: image-url("/assets/images/line.png");
     left: 321px;
     top: 176px;
   }
@@ -78,7 +78,7 @@ body {
     height: 150px;
     left: 27px;
     top: 79px;
-    background-image: url(/assets/images/plectrum.png);
+    background-image: image-url("/assets/images/plectrum.png");
     z-index: 100;
   }
 
@@ -86,14 +86,14 @@ body {
     left: 43px;
     width: 327px;
     height: 322px;
-    background-image: url(/assets/images/guitar.png);
+    background-image: image-url("/assets/images/guitar.png");
     z-index: 90;
   }
 
   &#logo {
     height: 418px;
     width: 293px;
-    background-image: url(/assets/images/logos.png);
+    background-image: image-url("/assets/images/logos.png");
     top: 262px;
     left: 18px;
   }
@@ -101,14 +101,14 @@ body {
   &#pencil {
     height: 179px;
     width: 738px;
-    background-image: url(/assets/images/pencil.png);
+    background-image: image-url("/assets/images/pencil.png");
     left: 286px;
   }
 
   &#glitch {
     height: 275px;
     width: 305px;
-    background-image: url(/assets/images/glitch.png);
+    background-image: image-url("/assets/images/glitch.png");
     top: initial;
     left: initial;
     right: 2px;
@@ -127,9 +127,9 @@ body {
       display: inline-block;
       width: 121px;
       height: 33px;
-      background-image: url(/assets/images/menu/news.png);
+      background-image: image-url("/assets/images/menu/news.png");
       &.active, &:hover {
-        background-image: url(/assets/images/menu/news_active.png);
+        background-image: image-url("/assets/images/menu/news_active.png");
       }
     }
 
@@ -137,11 +137,11 @@ body {
       display: inline-block;
       width: 72px;
       height: 26px;
-      background-image: url(/assets/images/menu/about_us.png);
+      background-image: image-url("/assets/images/menu/about_us.png");
       margin-left: 28px;
       margin-bottom: 7px;
       &.active, &:hover {
-        background-image: url(/assets/images/menu/about_us_active.png);
+        background-image: image-url("/assets/images/menu/about_us_active.png");
       }
     }
 
@@ -149,11 +149,11 @@ body {
       display: inline-block;
       width: 83px;
       height: 25px;
-      background-image: url(/assets/images/menu/rekord.png);
+      background-image: image-url("/assets/images/menu/rekord.png");
       margin-left: 30px;
       margin-bottom: 8px;
       &.active, &:hover {
-        background-image: url(/assets/images/menu/rekord_active.png);
+        background-image: image-url("/assets/images/menu/rekord_active.png");
       }
     }
 
@@ -161,11 +161,11 @@ body {
       width: 104px;
       height: 26px;
       display: inline-block;
-      background-image: url(/assets/images/menu/program.png);
+      background-image: image-url("/assets/images/menu/program.png");
       margin-left: 33px;
       margin-bottom: 2px;
       &.active, &:hover {
-        background-image: url(/assets/images/menu/program_active.png);
+        background-image: image-url("/assets/images/menu/program_active.png");
       }
     }
 
@@ -173,10 +173,10 @@ body {
       width: 135px;
       height: 33px;
       display: inline-block;
-      background-image: url(/assets/images/menu/registration.png);
+      background-image: image-url("/assets/images/menu/registration.png");
       margin-left: 27px;
       &.active, &:hover {
-        background-image: url(/assets/images/menu/registration_active.png);
+        background-image: image-url("/assets/images/menu/registration_active.png");
       }
     }
   }
