@@ -57,6 +57,23 @@ body {
   margin: 0 auto;
   padding-bottom: 20px;
   background-repeat: no-repeat;
+
+  #friends {
+    float: left;
+    width: 330px;
+    height: 73px;
+  }
+  #contact {
+    float: right;
+    height: 46px;
+    margin-top: 29px;
+    width: 600px;
+    p {
+      font-size: 12px;
+      padding: 0;
+      margin: 0;
+    }
+  }
 }
 
 
