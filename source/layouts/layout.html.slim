@@ -30,7 +30,7 @@ html.nojs
         div#images
           - current_page.data.images.to_a.each do |image|
             div.image
-              = tag :img, :src => "/assets/images/#{image}"
+              = tag :img, :src => "/assets/images/#{image}", :width => 200, :height => 192
         div.clear
       div.layer#logo
       a.layer#plectrum href="/"
