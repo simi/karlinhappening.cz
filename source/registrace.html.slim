@@ -5,21 +5,16 @@ css: 'registration'
 
 h2 = "Formulář pro registraci účastníků"
 
-h3 Registrace bude brzy spuštěna!
-
-//form#reg
-  label for="name" Jméno
-  input#name type="text"
+form#reg action="http://mailer.apicko.cz/happening" method="POST"
+  label for="name" Jméno a příjmení:
+  input#name name="name" type="text"
   div.clear
-  label Příjmení
-  input#lastname type="text"
+  label Věk:
+  input#age name="age" type="text"
   div.clear
-  label Věk
-  input#age type="text"
+  label Email:
+  input#email name="email" type="text"
   div.clear
-  label Email
-  input#email type="text"
-  div.clear
-  input type="image" src="/assets/images/send.png"
+  input type="submit" value=""
 
 
