@@ -1,1 +1,1 @@
-(function(){}).call(this);
+$(document).ready(function(){$("form#reg").submit(function(){var e=$("form#reg").attr("action");return $.ajax({type:"POST",url:e,data:$("form#reg").serialize(),complete:function(e){switch(e.status){case 204:alert("Registrace \xfasp\u011b\u0161n\xe1!"),$("form#reg")[0].reset();break;case 400:alert("\u0160patn\u011b vypln\u011bn\xfd formul\xe1\u0159!");break;case 409:alert("Tento email je ji\u017e registrov\xe1n!");break;default:alert("Bohu\u017eel nastala chyba. Zkontrolujte formul\xe1\u0159 nebo zkuste registraci pozd\u011bji.")}}}),!1})});
