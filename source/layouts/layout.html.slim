@@ -34,19 +34,23 @@ html.nojs
               = tag :img, :src => "/assets/images/#{image}", :width => 200, :height => 192
         div.clear
       div.layer#logo
+      div.layer#logos
+        div.box
+          a.sublogo#spektrum
+          a.sublogo#kytary
+          a.sublogo#p8
       a.layer#plectrum href="/"
       div.layer#guitar
       div.layer#menu
         a.item#news href="/" class = ("active" if current_page.path == 'index.html')
-        a.item#about_us href="/o-nas"class = ("active" if current_page.path == 'o-nas.html')
+        a.item#about_us href="/o-nas" class = ("active" if current_page.path == 'o-nas.html')
         a.item#rekord href="/rekord" class = ("active" if current_page.path == 'rekord.html')
         a.item#program href="/program" class = ("active" if current_page.path == 'program.html')
-        a.item#registration href="/registrace"class = ("active" if current_page.path == 'registrace.html')
+        a.item#registration href="/registrace" class = ("active" if current_page.path == 'registrace.html')
       div.layer#line
       div.layer#pencil
       div.layer#glitch
     div#footer
-      div#friends
       div#contact
         p
           span garant akce: David Berenreiter  - email: 
