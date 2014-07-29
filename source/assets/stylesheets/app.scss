@@ -264,8 +264,40 @@ h2 {
 
   .box {
     margin-top: 30px;
-    width: 300px;
-    height: 350px;
+    width: 244px;
+    padding: 23px;
     background-color: #fff;
+
+    .sublogo {
+      display: inline-block;
+    }
+
+    #spektrum {
+      float: left;
+      width: 79px;
+      height: 112px;
+      background-image: image-url("/assets/images/partners/spektrum.png");
+    }
+
+    #praha {
+      float: right;
+      width: 111px;
+      height: 111px;
+      background-image: image-url("/assets/images/partners/praha.png");
+    }
+
+    #kytary {
+      margin-top: 20px;
+      width: 245px;
+      height: 104px;
+      background-image: image-url("/assets/images/partners/kytary.png");
+    }
+
+    #p8 {
+      margin-top: 20px;
+      width: 246px;
+      height: 68px;
+      background-image: image-url("/assets/images/partners/osmicka.png");
+    }
   }
 }
