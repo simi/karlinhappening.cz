@@ -3,7 +3,7 @@
 
 html, body {
   height: 100%;
-  min-height: 1200px;
+  min-height: 1620px;
 }
 
 body {
@@ -268,6 +268,14 @@ h2 {
     padding: 23px;
     background-color: #fff;
 
+    .main-partners {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+
     .sublogo {
       display: inline-block;
     }
@@ -279,15 +287,52 @@ h2 {
       background-image: image-url("/assets/images/partners/spektrum.png");
     }
 
-    #praha {
+    #dp {
+      float: left;
+      width: 111px;
+      height: 89px;
+      background-image: image-url("/assets/images/partners/dp.png");
+    }
+
+    #pre {
+      margin-top: 5px;
+      float: left;
+      width: 113px;
+      height: 64px;
+      background-image: image-url("/assets/images/partners/pre.png");
+    }
+
+    #pe {
       float: right;
+      width: 115px;
+      height: 159px;
+      background-image: image-url("/assets/images/partners/pe.png");
+    }
+
+    #city {
+      float: right;
+      margin-top: 12px;
+      width: 111px;
+      height: 84px;
+      background-image: image-url("/assets/images/partners/city.png");
+    }
+
+    #bandzone {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: 246px;
+      height: 56px;
+      background-image: image-url("/assets/images/partners/bandzone.png");
+    }
+
+    #praha {
+      margin-top: 10px;
       width: 111px;
       height: 111px;
       background-image: image-url("/assets/images/partners/praha.png");
     }
 
     #kytary {
-      margin-top: 20px;
       width: 245px;
       height: 104px;
       background-image: image-url("/assets/images/partners/kytary.png");
@@ -300,4 +345,8 @@ h2 {
       background-image: image-url("/assets/images/partners/osmicka.png");
     }
   }
+}
+
+.center {
+  text-align: center;
 }
