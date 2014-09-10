@@ -3,7 +3,7 @@
 
 html, body {
   height: 100%;
-  min-height: 1620px;
+  min-height: 1790px;
 }
 
 body {
@@ -318,6 +318,14 @@ h2 {
       width: 111px;
       height: 84px;
       background-image: image-url("/assets/images/partners/city.png");
+    }
+
+    #sai {
+      margin-top: 5px;
+      margin-bottom: 15px;
+      width: 246px;
+      height: 138px;
+      background-image: image-url("/assets/images/partners/sai.png");
     }
 
     #bandzone {
