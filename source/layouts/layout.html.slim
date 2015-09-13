@@ -23,7 +23,15 @@ html.nojs
     = stylesheet_link_tag 'app'
 
   body
-
+    #fb-root
+    script
+      | (function(d, s, id) {
+      | var js, fjs = d.getElementsByTagName(s)[0];
+      | if (d.getElementById(id)) return;
+      | js = d.createElement(s); js.id = id;
+      | js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.4&appId=";
+      | fjs.parentNode.insertBefore(js, fjs);
+      | }(document, 'script', 'facebook-jssdk'));
     div#main
       div#content
         div#text
@@ -43,18 +51,10 @@ html.nojs
             a.sublogo#praha target="_blank" href="http://www.praha.eu/"
             div.clear
           div.main-partners Partneři:
-          a.sublogo#spektrum target="_blank" href="http://www.ddmpraha.cz/karlinske-spektrum"
+          a.sublogo#kiss target="_blank" href="http://www.kiss98.cz/"
           a.sublogo#city target="_blank" href="http://www.radiocity.cz"
           div.clear
-          a.sublogo#bandzone target="_blank" href="http://bandzone.cz"
-          div.clear
-          div.clear
-          a.sublogo#sai target="_blank" href="http://sai.cz"
-          div.clear
-          a.sublogo#dp target="_blank" href="http://www.dpp.cz/"
-          a.sublogo#pe target="_blank" href="http://www.ppas.cz/"
-          a.sublogo#pre target="_blank" href="https://www.pre.cz/"
-          div.clear
+          a.sublogo#ddm target="_blank" href="http://www.ddmpraha.cz"
 
       a.layer#plectrum href="/"
       div.layer#guitar
